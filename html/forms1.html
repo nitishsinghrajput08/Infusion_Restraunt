@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <link rel="icon" href="../images/Infusion Logo.png">
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        .box {
+            background-color: rgb(210, 210, 148);
+            width: 300px;
+            margin: 50px auto;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+
+        body {
+            background: radial-gradient(circle, rgb(185, 185, 95), beige);
+            font-family: sans-serif;
+        }
+
+        input {
+            margin: 20px auto;
+            text-align: center;
+            padding: 14px 10px;
+            width: 200px;
+            border-radius: 24px;
+            background: none;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            border: 2px solid beige;
+            color: lightyellow;
+        }
+
+        input[type="submit"] {
+            border: 2px solid rgb(247, 247, 191);
+            color: white;
+            cursor: pointer;
+        }
+
+        .bg-image {
+
+            background-image: url('Restraunt1.png');
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            height: 100%;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- hearer sedction / navigation bar -->
+
+
+    <section class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/Infusion Logo.png" width="30" height="30" alt="">
+                INFUSION
+            </a>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li style="padding:  0px 0px 0px 50px;">
+                        <a class="navbar-brand" href="home.html">Home</a>
+                    </li>
+                    <li style="padding:  0px 0px 0px 50px;">
+                        <a class="navbar-brand" href="menu.html">Menu</a>
+                    </li>
+                    <li style="padding:  0px 0px 0px 50px;">
+                        <a class="navbar-brand" href="orders.html">Our Gallery</a>
+                    </li>
+                    <li style="padding:  0px 0px 0px 50px;">
+                        <a class="navbar-brand" href="gift_cards.html">Gifts</a>
+                    </li>
+                    <li style="padding:  0px 0px 0px 50px;">
+                        <a class="navbar-brand" href="about.html">About</a>
+                    </li>
+                    <li style="padding:  0px 0px 0px 50px;">
+                        <a class="navbar-brand" href="contact.html">Contact</a>
+                    </li>
+                    <li style="padding:  0px 0px 0px 50px;">
+                        <a class="navbar-brand" href="https://www.instagram.com/infusion_temc/">
+                            <img src="../images/instagram icon.png" width="30px" height="30px" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navbar-brand"
+                            href="https://www.facebook.com/search/top?q=infusion_theeventmanagementco">
+                            <img src="../images/facebook icon.png" alt="my picture" width="20px" height="20px">
+                        </a>
+                    </li>
+                    </p>
+                </ul>
+            </div>
+
+        </nav>
+    </section>
+
+    <!-- body start  -->
+
+
+    <form action="home.html" class="box">
+        <h1>Login</h1>
+        <input type="text" name="uname" placeholder="Username">
+        <input type="password" name="upwd" placeholder="Password">
+        <input type="submit" value="Login">
+    </form>
+
+
+    <!-- footer -->
+    <footer id="footer">
+        <br><br>
+        <center>
+            <img class="footer" src="../images/Infusion Logo.png" width="30" height="30" alt="">
+            <br><br>
+            <h3 class="footer">INFUSION</h3>
+
+            <br><br>
+            <a class="navbar-brand text-secondary" href="privacy.html">Privacy Policy</a>
+            |
+            <a class="navbar-brand text-secondary" href="Cookies.html">Cookies</a>
+            |
+            <a class="navbar-brand text-secondary" href="contact.html">Contact Us</a>
+            |
+            <a class="navbar-brand text-secondary" href="about.html">About Us</a>
+            |
+            <a class="navbar-brand text-secondary" href="terms.html">Terms and conditions</a>
+
+            <hr>
+            <br>
+            <p style="text-align: center">© Copyright 2022 INFUSION</p>
+            <br>
+        </center>
+    </footer>
+
+
+
+</body>
+
+</html>
